@@ -127,7 +127,7 @@ int main (int argc, char **argv)
 
 		//usleep(500000);
 		//sleep(1);
-		const struct timespec spec = {0,1.0e8};
+		const struct timespec spec = {0,1.0e8}; //1.0e8=100 000 000, 100 000 000 ns =0.1s
 		nanosleep(&spec, NULL);
 
 		/* Stop Counting */
